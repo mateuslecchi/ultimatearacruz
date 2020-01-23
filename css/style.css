@@ -1,0 +1,156 @@
+/*body*/
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 320px;
+    margin: 5% 0 5% 0;
+}
+p{
+    color: #fff;
+    text-align: justify;
+}
+h2{
+    color: #f60;
+    text-align: justify;
+    padding-top: 150px;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 1em 0;
+    padding: 0; 
+    margin-bottom: -130px;
+}
+@media screen and (max-width: 768px) {
+    hr{
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #fff;
+        margin: 1em 0;
+        padding: 0; 
+        margin-bottom: -130px;
+    }
+    h2{
+        color: #f60;
+        text-align: justify;
+        padding-top: 170px;
+    }
+}
+.icon a{
+    text-decoration: none;
+    opacity: 0.5;
+    color: #fff;
+}
+.icon a:hover{
+    text-decoration: none;
+    opacity: 1;
+    color: #f60;
+    
+}
+.icon img{
+    width: 50px;
+    filter: invert(100%);
+}
+.icon img:hover{
+    width: 50px;
+    filter: invert(100%);
+    opacity: 1;
+}
+.back {
+    text-align: right
+}
+.back a{
+    color: #fff;
+    font-size: 0.75em;
+    opacity: 0.5;
+} 
+.back a:hover{
+    color: #f60;
+    opacity: 1;
+    text-decoration: none;
+}
+.back img{
+    width:15px;
+    filter: invert(100%);
+    opacity: 0.5;
+}
+.back img:hover{
+    width:15px;
+    filter: invert(100%);
+    opacity: 1;
+} 
+.visite{
+    color: #fff;
+    opacity: 0.5;
+}
+.visite:hover{
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+}
+.li{
+    font-size: 1.2em;
+}
+footer{
+    margin-top: 170px;
+}
+.horario{
+    list-style: none;
+    margin-left: -30px;
+}
+.horario li{
+    color: #fff;
+}
+.endereco{
+    list-style: none;
+    text-align: right;
+}
+.endereco li{
+    color: #fff;
+}
+.endereco2{
+    text-align: right;
+}
+.merch{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+.merch span{
+    color: rgba(255, 255, 255, 0.24);
+}
+.merch:hover{
+    height: 25px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+.merch span:hover{
+    color: #fff;
+}
+.offline h2{
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 15%;
+    left: 40%;
+}
+.of-logo{
+    width: 500px;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+}
+.of-gif{
+    width: 500px;
+    position: fixed;
+    top: 40%;
+    left: 35%;
+}
