@@ -1832,10 +1832,10 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgb(34, 34, 34);
+		background: #222222;
 		height: 4em;
 		line-height: 4em;
-		box-shadow: 0 0 0.15em 0 rgb(34, 34, 34);
+		box-shadow: 0 0 0.15em 0 #222222;
 	}
 
 		#header h1 {
@@ -1883,6 +1883,9 @@ input, select, textarea {
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 						color: #fff;
+					}
+					#header nav ul li a:hover{
+						color:#ff6600
 					}
 
 		@media screen and (max-width: 736px) {
@@ -2190,7 +2193,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 0em;
-		background: #39454b;
+		background: #222222;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2258,7 +2261,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/one.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2268,7 +2271,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/intro.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2277,7 +2280,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/two.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
